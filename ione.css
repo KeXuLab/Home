@@ -1,0 +1,246 @@
+header {
+	background-color:#191919;
+	height:120px;
+	width:auto;
+	margin: -20px -10px 0 -10px;
+	padding: -10px;
+	text-align:right;
+	background: url('banner/banner.png');
+	background-size: cover;
+	background-position: 0% 30%;
+	font-family: 'Strait', sans-serif;
+}
+footer {
+	margin: auto auto;
+}
+body {
+	background: linear-gradient(bottom, rgba(255,255,255,0.8), rgba(0,0,0,1));
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,0.8), rgba(0,0,0,1));
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,0.8), rgba(0,0,0,1));
+	background: -ms-linear-gradient(bottom, rgba(255,255,255,0.8), rgba(0,0,0,1));
+	background-size: 100% 90px;
+	background-repeat:no-repeat;
+	background-position:0% 60px;
+	background-color:rgba(255,255,255,1);
+	font-family: 'Carme', sans-serif;
+}
+
+#cf {
+  position:relative;
+  height:110%;
+  left:-28%;
+  bottom:-5%;
+  width:0px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+@keyframes cfFadeInOut {
+  0% {
+  opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+
+@-webkit-keyframes cfFadeInOut {
+  0% {
+  opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+
+@-moz-keyframes cfFadeInOut {
+  0% {
+  opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+
+@-ms-keyframes cfFadeInOut {
+  0% {
+  opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf img.top {
+animation-name: cfFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction: alternate;
+animation-delay:2s;
+-webkit-animation-name: cfFadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 3s;
+-webkit-animation-direction: alternate;
+-webkit-animation-delay:2s;
+-moz-animation-name: cfFadeInOut;
+-moz-animation-timing-function: ease-in-out;
+-moz-animation-iteration-count: infinite;
+-moz-animation-duration: 3s;
+-moz-animation-direction: alternate;
+-moz-animation-delay:2s;
+-ms-animation-name: cfFadeInOut;
+-ms-animation-timing-function: ease-in-out;
+-ms-animation-iteration-count: infinite;
+-ms-animation-duration: 3s;
+-ms-animation-direction: alternate;
+-ms-animation-delay:2s;
+}
+
+.main {
+	width:960px;
+	height:100px;
+	margin: 0px auto;
+	border-style:solid;
+	border-width:0px;
+	border-color:rgba(0,0,0,0.4);
+	position:relative;
+}
+.under {
+	width:960px;
+	height:200px;
+	margin: -4% auto -5% auto;
+	border-style:solid;
+	border-width:0px;
+	border-color:rgba(0,0,0,0.4);
+}
+.mainscreen {
+	margin: 0 auto;
+	margin-bottom:40px;
+	margin-top:50px;
+}
+.bottom {
+	width:528px;
+	height:389px;
+	border:solid;
+	border-width:6px;
+	border-color:rgba(0,0,0,0.8);
+	display:block;
+	border-radius:10px;
+}
+.top {
+	width:528px;
+	height:389px;
+	border:solid;
+	border-width:6px;
+	border-color:rgba(0,0,0,0.8);
+	display:block;
+	border-radius:10px;
+}	
+h1 {
+	margin: 20px 20px 20px 0;
+	padding-right:15px;
+	text-align: right;
+	background: linear-gradient(left, rgba(255,255,255,1), rgba(0,0,0,.45)),url('banner/img2.png') no-repeat;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(0,0,0,.45)),url('banner/img2.png') no-repeat;
+	background: -moz-linear-gradient(left, rgba(255,255,255,1), rgba(0,0,0,.45)),url('banner/img2.png') no-repeat;
+	background: -ms-linear-gradient(left, rgba(255,255,255,1), rgba(0,0,0,.45)),url('banner/img2.png') no-repeat;
+	background-size:cover;
+	display:block;
+	color:white;
+	text-shadow: 2px 2px #000000;
+	border-radius:5px;
+}
+h2 {
+	color:white;
+	text-align: center;
+	font-size: 40px;
+	margin:0 auto;
+	float:center;
+	position:relative;
+	bottom:-20%;
+	left:-13%;
+	background-size:cover;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+ul {
+	background: rgba(0,0,0,0.6);
+	padding: 10px;
+	text-align:center;
+	margin: 0 auto;
+	position: relative;
+	bottom: -40%;
+	cursor: default;
+	border:solid;
+	border-width:3px;
+	-webkit-text-stroke: 0.4px;
+}
+li {
+	display:inline;
+	z-index:1;
+	padding:0 30px 0 30px;
+	font-size: 22px;
+	cursor: default;
+}
+p {
+	display:block;
+	font-size:16px;
+	line-height:130%;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+article {
+	margin:0 auto;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+a:hover {
+	color:white;
+}
+.spec {
+	font-size: 40px;
+}
+div > #imageTag {
+	position:absolute;
+	bottom:5%;
+	left:44%;
+}
+.thisPage {
+	color:white;
+}
+.aLink {
+	color:blue;
+}
+.notThisPage {
+	color:rgba(220,220,220,1);
+}
+.dateText {
+	font-size:24px;
+}
+.newsTitle {
+	font-size:28px;
+}
+.nn {
+	margin-top: 110px;
+}
+.newsContent {
+	font-size:16px;
+	line-height: 130%;
+}
